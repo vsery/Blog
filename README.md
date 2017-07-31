@@ -6,7 +6,7 @@
 
 目录
 
-* [全栈工程师 -- 材料] (./full-stack/README.md)
+* [全栈工程师 -- 材料](./full-stack/README.md)
 
 * [Node.js 包教不包会 -- by alsotang](https://github.com/vsery/Blog/tree/master/node-books/README.md)
 
