@@ -197,15 +197,11 @@
 ##node.js中文书
 
 ##[了不起的Node.js](http://book.douban.com/subject/25767596/)  
-![image](http://img3.douban.com/mpic/s27132823.jpg)
 
 ##[九浅一深Node.js](http://book.douban.com/subject/25768396/) pu大作品
-![image](http://img5.douban.com/mpic/s27134708.jpg)
 
 ##[node.js入门经典](http://book.douban.com/subject/23780706/)
-![image](http://img5.douban.com/mpic/s26588828.jpg)
 
 ##[node.js开发指南](http://book.douban.com/subject/10789820/)
-![image](http://img5.douban.com/mpic/s10307479.jpg)
 
 欢迎各位node.js爱好者，提交分享手上的资源。
