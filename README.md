@@ -20,7 +20,7 @@
 
 * [前端相关分享——很齐全 -- Wscats](https://github.com/vsery/Blog/tree/master/frontend-share/README.md)
 
-* [流行技术博客站点收录] (https://github.com/vsery/Blog/tree/master/blog/README.md)
+* [流行技术博客站点收录](https://github.com/vsery/Blog/tree/master/blog/README.md)
 
 * [使用node.js + express开发简易后台 -- peng1992](https://github.com/vsery/Blog/tree/master/express/README.md)
 
@@ -39,10 +39,10 @@
 
 
 ## 内容贡献者,感谢他们.排名不分先后.
-    [fouber](https://github.com/fouber)
-    [JacksonTian](https://github.com/JacksonTian)
-    [Wscats](https://github.com/Wscats)
-    [f2e-journey](https://github.com/f2e-journey)
-    [alsotang](https://github.com/alsotang)
+[fouber](https://github.com/fouber)
+[JacksonTian](https://github.com/JacksonTian)
+[Wscats](https://github.com/Wscats)
+[f2e-journey](https://github.com/f2e-journey)
+[alsotang](https://github.com/alsotang)
 
 
