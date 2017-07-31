@@ -54,6 +54,6 @@ Vue全家桶（Vue2.x + Vue-router2.x + Vuex）+ Thinkphp的前后端分离框�
 
 
 # 内容贡献者,感谢他们. (排名不分先后)
-[fouber](https://github.com/fouber) | [JacksonTian](https://github.com/JacksonTian) | [nswbmw](https://github.com/nswbmw) | [Wscats](https://github.com/Wscats) | [f2e-journey](https://github.com/f2e-journey) | [alsotang](https://github.com/alsotang) | [damonare](https://github.com/damonare) | [bailicangdu](https://github.com/bailicangdu) | [honraytech](https://github.com/honraytech) | [paddingme](https://github.com/paddingme) | [nimojs](https://github.com/nimojs)
+[fouber](https://github.com/fouber) | [JacksonTian](https://github.com/JacksonTian) | [nswbmw](https://github.com/nswbmw) | [Wscats](https://github.com/Wscats) | [f2e-journey](https://github.com/f2e-journey) | [alsotang]g(https://github.com/alsotang) | [damonare](https://github.com/damonare) | [bailicangdu](https://github.com/bailicangdu) | [honraytech](https://github.com/honraytech) | [paddingme](https://github.com/paddingme) | [nimojs](https://github.com/nimojs)
 
 
