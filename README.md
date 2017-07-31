@@ -6,11 +6,11 @@
 
 目录
 
-* [Node.js 包教不包会 -- by alsotang](https//github.com/vsery/Blog/node-lessons.README.md)
+* [Node.js 包教不包会 -- by alsotang](https://github.com/vsery/Blog/node-lessons.README.md)
 
-* [Node.js 相关参考书](https//github.com/vsery/Blog/node-books.README.md)
+* [Node.js 相关参考书](https://github.com/vsery/Blog/node-books.README.md)
 
-* [前端开发知识结构 -- JacksonTian](https//github.com/vsery/Blog/frontend-knowledge-structure.README.md)
+* [前端开发知识结构 -- JacksonTian](https://github.com/vsery/Blog/frontend-knowledge-structure.README.md)
 
 * [前端工程——基础篇 -- fouber](https://github.com/fouber/blog)
 
