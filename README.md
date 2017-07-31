@@ -12,6 +12,10 @@
 
 * [Node.js 相关参考书](https://github.com/vsery/Blog/tree/master/node-link/README.md)
 
+* [使用node.js + express开发简易后台 -- peng1992](https://github.com/vsery/Blog/tree/master/express/README.md)
+
+* [Express + MongoDB 搭建多人博客](https://github.com/vsery/Blog/tree/master/blogs/README.md)
+
 * [前端开发知识结构 -- JacksonTian](https://github.com/vsery/Blog/tree/master/frontend-knowledge-structure/README.md)
 
 * [前端工程——基础篇 -- fouber](https://github.com/fouber/blog)
@@ -22,19 +26,17 @@
 
 * [流行技术博客站点收录](https://github.com/vsery/Blog/tree/master/blog/README.md)
 
-* [使用node.js + express开发简易后台 -- peng1992](https://github.com/vsery/Blog/tree/master/express/README.md)
-
 * 面向亿万用户级的移动端Web解决方案：
-1. [代码结构规范](./solutions/project-structure.md)
-2. [字体设置最佳实践](./solutions/font-family.md)
-3. [模拟原生效果实践](./solutions/)
-4. [工具类方法汇总](./tools/)
-5. [iOS与Android平台上问题列表](./issues/)
-6. [高性能Mobile Web开发](./performance/)
-7. [特效制作解决方案](http://alloyteam.github.io/AlloyTouch/transformjs/)
-9. [触摸运动解决方案](https://github.com/AlloyTeam/AlloyTouch)
-10. [Mobile手势解决方案](https://github.com/AlloyTeam/AlloyFinger)
-11. [Mobile裁剪解决方案](https://github.com/AlloyTeam/AlloyFinger/tree/master/alloy_crop)
+    1. [代码结构规范](./solutions/project-structure.md)
+    2. [字体设置最佳实践](./solutions/font-family.md)
+    3. [模拟原生效果实践](./solutions/)
+    4. [工具类方法汇总](./tools/)
+    5. [iOS与Android平台上问题列表](./issues/)
+    6. [高性能Mobile Web开发](./performance/)
+    7. [特效制作解决方案](http://alloyteam.github.io/AlloyTouch/transformjs/)
+    9. [触摸运动解决方案](https://github.com/AlloyTeam/AlloyTouch)
+    10. [Mobile手势解决方案](https://github.com/AlloyTeam/AlloyFinger)
+    11. [Mobile裁剪解决方案](https://github.com/AlloyTeam/AlloyFinger/tree/master/alloy_crop)
 
 
 
