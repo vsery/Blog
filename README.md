@@ -11,7 +11,7 @@
 
 * [Node.js 包教不包会 -- by alsotang](https://github.com/vsery/Blog/tree/master/node-books/README.md)
 
-* [Node.js 相关参考书](https://github.com/vsery/Blog/tree/master/node-link/README.md)
+* [Node.js 中文资料导航](https://github.com/vsery/Blog/tree/master/node-link/README.md)
 
 * [使用node.js + express开发简易后台 -- peng1992](https://github.com/vsery/Blog/tree/master/express/README.md)
 
@@ -21,7 +21,11 @@
 
 * [前端开发知识结构 -- JacksonTian](https://github.com/vsery/Blog/tree/master/frontend-knowledge-structure/README.md)
 
-* [VueThink——Vue全家桶（Vue2.x + Vue-router2.x + Vuex）+ Thinkphp的前后端分离框架 -- honraytech](https://github.com/honraytech/VueThink)
+* [VueThink -- honraytech](https://github.com/honraytech/VueThink)
+Vue全家桶（Vue2.x + Vue-router2.x + Vuex）+ Thinkphp的前后端分离框架
+
+* [manage-system -- lin-xin](https://github.com/lin-xin/manage-system/)
+基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案。
 
 * [前端工程——基础篇 -- fouber](https://github.com/fouber/blog)
 
@@ -32,6 +36,8 @@
 * [前端面试题 -- damonare ](https://github.com/vsery/Blog/tree/master/subject/README.md)
 
 * [流行技术博客站点收录](https://github.com/vsery/Blog/tree/master/blog/README.md)
+
+* [函数式编程术语 -- [cn](https://github.com/shfshanyue/fp-jargon-zh) | [en](https://github.com/hemanth/functional-programming-jargon)
 
 * 面向亿万用户级的移动端Web解决方案：
     1. [代码结构规范](./solutions/project-structure.md)
