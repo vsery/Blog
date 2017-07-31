@@ -5,60 +5,60 @@
     <th>Article</th>
     <th>Article</th>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/57" target="_blank">Javascript深浅拷贝</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/56" target="_blank">Javascript中的apply和call继承</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/57">Javascript深浅拷贝</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/56">Javascript中的apply和call继承</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/55" target="_blank">Javascript的jsonp原理</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/49" target="_blank">Javascript监听触摸事件</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/55">Javascript的jsonp原理</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/49">Javascript监听触摸事件</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/52" target="_blank">Javascript中的var self = this</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/32" target="_blank">Javascript面向对象编程</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/52">Javascript中的var self = this</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/32">Javascript面向对象编程</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/14" target="_blank">Javascript滑屏切换场景</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/16" target="_blank">Javascript获取经纬度，关于调用百度API的问题</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/14">Javascript滑屏切换场景</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/16">Javascript获取经纬度，关于调用百度API的问题</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/3" target="_blank">妙用Javascript运算符</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/1" target="_blank">深入理解Javascript函数编程</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/3">妙用Javascript运算符</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/1">深入理解Javascript函数编程</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/4" target="_blank">Javascript的setTimeout详细用例</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/42" target="_blank">sessionstorage，localstorage和cookie</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/4">Javascript的setTimeout详细用例</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/42">sessionstorage，localstorage和cookie</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/11" target="_blank">JS日期对比</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/10" target="_blank">JSONP参考文章</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/11">JS日期对比</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share/issues/10">JSONP参考文章</a></td>
     </tr>
     <tr>
-        <td><a href="https://wscats.github.io/angular-demo/createElement.html" target="_blank">Javascript的createElement</a></td>
-        <td><a href="https://wscats.github.io/angular-demo/createDocumentFragment.html" target="_blank">Javascript的createDocumentFragment</a></td>
+        <td><a target="_blank" href="https://wscats.github.io/angular-demo/createElement.html">Javascript的createElement</a></td>
+        <td><a target="_blank" href="https://wscats.github.io/angular-demo/createDocumentFragment.html">Javascript的createDocumentFragment</a></td>
     </tr>
     <tr>
-        <td><a href="https://wscats.github.io/angular-demo/sessionStoragelocalStorage.html" target="_blank">sessionStorage和localStorage</a></td>
-        <td><a href="https://wscats.github.io/angular-demo/像素动画.html" target="_blank">像素帧动画</a></td>
+        <td><a target="_blank" href="https://wscats.github.io/angular-demo/sessionStoragelocalStorage.html">sessionStorage和localStorage</a></td>
+        <td><a target="_blank" href="https://wscats.github.io/angular-demo/像素动画.html">像素帧动画</a></td>
     </tr>
     <tr>
         <td>Reference</td>
         <td>Reference</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/windiest/Front-end-tutorial" target="_blank">收集最全前端学习资料</a></td>
-        <td><a href="https://github.com/Wscats/Good-text-Share" target="_blank">最全前端教程-猫的回忆录</a></td>
+        <td><a target="_blank" href="https://github.com/windiest/Front-end-tutorial">收集最全前端学习资料</a></td>
+        <td><a target="_blank" href="https://github.com/Wscats/Good-text-Share">最全前端教程-猫的回忆录</a></td>
     </tr>
     <tr>
-        <td><a href="https://segmentfault.com/a/1190000002640298" target="_blank">JavaScript中的this陷阱的最全收集--没有之一</a></td>
-        <td><a href="https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html" target="_blank">JS函数式编程指南</a></td>
+        <td><a target="_blank" href="https://segmentfault.com/a/1190000002640298">JavaScript中的this陷阱的最全收集--没有之一</a></td>
+        <td><a target="_blank" href="https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html">JS函数式编程指南</a></td>
     </tr>
     <tr>
-        <td><a href="http://liubin.github.io/promises-book" target="_blank">JavaScript Promise迷你书（中文版）</a></td>
-        <td><a href="http://javascript.ruanyifeng.com" target="_blank">阮一峰 Javascript</a></td>
+        <td><a target="_blank" href="http://liubin.github.io/promises-book">JavaScript Promise迷你书（中文版）</a></td>
+        <td><a target="_blank" href="http://javascript.ruanyifeng.com">阮一峰 Javascript</a></td>
     </tr>
     <tr>
-        <td><a href="https://www.awesomes.cn/rank" target="_blank">前端 TOP 100</a></td>
-        <td><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000" target="_blank">小白的零基础JavaScript全栈教程</a></td>
+        <td><a target="_blank" href="https://www.awesomes.cn/rank">前端 TOP 100</a></td>
+        <td><a target="_blank" href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">小白的零基础JavaScript全栈教程</a></td>
     </tr>
 </table>
 
@@ -68,20 +68,20 @@
     <th>Reference</th>
     <th>Reference</th>
     <tr>
-        <td>[WeUI](https://github.com/weui/weui)</td>
-        <td>[Bootstrap](http://www.bootcss.com)</td>
-        <td>[MUI-最接近原生APP体验的高性能前端框架](http://dev.dcloud.net.cn/mui/)</td>
-        <td>[Amaze UI中国首个开源HTML5跨屏前端框架](http://amazeui.org)</td>
-        <td>[Frozen UI](http://frozenui.github.io/)</td>
-        <td>[Foundation](http://foundation.zurb.com/)</td>
-        <td>[SUI](http://sui.taobao.org/sui/docs/)</td>
-        <td>[ZUI](https://github.com/easysoft/zui)</td>
-        <td>[淘宝HTML5前端框架](http://m.sui.taobao.org)</td>
-        <td>[KISSY - 阿里前端JavaScript库](http://docs.kissyui.com)</td>
-        <td>[网易Nej - Nice Easy Javascript](http://nej.netease.com)</td>
-        <td>[Kendo UI MVVM Demo](http://demos.telerik.com/kendo-ui/mvvm/index)</td>
-        <td>[Smart UI](http://smartui.chinamzz.com)</td>
-        <td>[雅虎UI - CSS UI](http://developer.yahoo.com/yui/grids)</td>
+        <td><a target="_blank" href="https://github.com/weui/weui">WeUI</a></td>
+        <td><a target="_blank" href="http://www.bootcss.com">Bootstrap</a></td>
+        <td><a target="_blank" href="http://dev.dcloud.net.cn/mui/">MUI-最接近原生APP体验的高性能前端框架</a></td>
+        <td><a target="_blank" href="http://amazeui.org">Amaze UI中国首个开源HTML5跨屏前端框架</a></td>
+        <td><a target="_blank" href="http://frozenui.github.io/">Frozen UI</a></td>
+        <td><a target="_blank" href="http://foundation.zurb.com/">Foundation</a></td>
+        <td><a target="_blank" href="http://sui.taobao.org/sui/docs/">SUI</a></td>
+        <td><a target="_blank" href="https://github.com/easysoft/zui">ZUI</a></td>
+        <td><a target="_blank" href="http://m.sui.taobao.org">淘宝HTML5前端框架</a></td>
+        <td><a target="_blank" href="http://docs.kissyui.com">KISSY - 阿里前端JavaScript库</a></td>
+        <td><a target="_blank" href="http://nej.netease.com">网易Nej - Nice Easy Javascript</a></td>
+        <td><a target="_blank" href="http://demos.telerik.com/kendo-ui/mvvm/index">Kendo UI MVVM Demo</a></td>
+        <td><a target="_blank" href="http://smartui.chinamzz.com">Smart UI</a></td>
+        <td><a target="_blank" href="http://developer.yahoo.com/yui/grids">雅虎UI - CSS UI</a></td>
     </tr>
 </table>
 
