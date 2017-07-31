@@ -5,35 +5,60 @@
     <th>Article</th>
     <th>Article</th>
     <tr>
-        <td><a href="https://github.com/Wscats/Good-text-Share/issues/57">Javascript深浅拷贝</a></td>
-        <td>[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)</td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/57" target="_blank">Javascript深浅拷贝</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/56" target="_blank">Javascript中的apply和call继承</a></td>
     </tr>
-        <td>[Javascript的jsonp原理](https://github.com/Wscats/Good-text-Share/issues/55)</td>
-        <td>[Javascript监听触摸事件](https://github.com/Wscats/Good-text-Share/issues/49)</td>
-        <td>[Javascript中的var self = this](https://github.com/Wscats/Good-text-Share/issues/52)</td>
-        <td>[Javascript面向对象编程](https://github.com/Wscats/Good-text-Share/issues/32)</td>
-        <td>[Javascript滑屏切换场景](https://github.com/Wscats/Good-text-Share/issues/14)</td>
-        <td>[Javascript获取经纬度，关于调用百度API的问题](https://github.com/Wscats/Good-text-Share/issues/16)</td>
-        <td>[妙用Javascript运算符](https://github.com/Wscats/Good-text-Share/issues/3)</td>
-        <td>[深入理解Javascript函数编程](https://github.com/Wscats/Good-text-Share/issues/1)</td>
-        <td>[Javascript的setTimeout详细用例](https://github.com/Wscats/Good-text-Share/issues/4)</td>
-        <td>[sessionstorage，localstorage和cookie](https://github.com/Wscats/Good-text-Share/issues/42)</td>
-        <td>[JS日期对比](https://github.com/Wscats/Good-text-Share/issues/11)</td>
-        <td>[JSONP参考文章](https://github.com/Wscats/Good-text-Share/issues/10)</td>
-        <td>[Javascript的createElement](https://wscats.github.io/angular-demo/createElement.html)</td>
-        <td>[Javascript的createDocumentFragment](https://wscats.github.io/angular-demo/createDocumentFragment.html)</td>
-        <td>[sessionStorage和localStorage](https://wscats.github.io/angular-demo/sessionStoragelocalStorage.html)</td>
-        <td>[像素帧动画](https://wscats.github.io/angular-demo/像素动画.html)</td>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/55" target="_blank">Javascript的jsonp原理</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/49" target="_blank">Javascript监听触摸事件</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/52" target="_blank">Javascript中的var self = this</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/32" target="_blank">Javascript面向对象编程</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/14" target="_blank">Javascript滑屏切换场景</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/16" target="_blank">Javascript获取经纬度，关于调用百度API的问题</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/3" target="_blank">妙用Javascript运算符</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/1" target="_blank">深入理解Javascript函数编程</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/4" target="_blank">Javascript的setTimeout详细用例</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/42" target="_blank">sessionstorage，localstorage和cookie</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/11" target="_blank">JS日期对比</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/10" target="_blank">JSONP参考文章</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://wscats.github.io/angular-demo/createElement.html" target="_blank">Javascript的createElement</a></td>
+        <td><a href="https://wscats.github.io/angular-demo/createDocumentFragment.html" target="_blank">Javascript的createDocumentFragment</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://wscats.github.io/angular-demo/sessionStoragelocalStorage.html" target="_blank">sessionStorage和localStorage</a></td>
+        <td><a href="https://wscats.github.io/angular-demo/像素动画.html" target="_blank">像素帧动画</a></td>
+    </tr>
+    <tr>
         <td>Reference</td>
         <td>Reference</td>
-        <td>[收集最全前端学习资料](https://github.com/windiest/Front-end-tutorial)</td>
-        <td>[最全前端教程-猫的回忆录](https://github.com/Wscats/Good-text-Share)</td>
-        <td>[JavaScript中的this陷阱的最全收集--没有之一](https://segmentfault.com/a/1190000002640298)</td>
-        <td>[JS函数式编程指南](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html)</td>
-        <td>[JavaScript Promise迷你书（中文版）](http://liubin.github.io/promises-book)</td>
-        <td>[阮一峰 Javascript](http://javascript.ruanyifeng.com)</td>
-        <td>[前端 TOP 100](https://www.awesomes.cn/rank)</td>
-        <td>[小白的零基础JavaScript全栈教程](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/windiest/Front-end-tutorial" target="_blank">收集最全前端学习资料</a></td>
+        <td><a href="https://github.com/Wscats/Good-text-Share" target="_blank">最全前端教程-猫的回忆录</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://segmentfault.com/a/1190000002640298" target="_blank">JavaScript中的this陷阱的最全收集--没有之一</a></td>
+        <td><a href="https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html" target="_blank">JS函数式编程指南</a></td>
+    </tr>
+    <tr>
+        <td><a href="http://liubin.github.io/promises-book" target="_blank">JavaScript Promise迷你书（中文版）</a></td>
+        <td><a href="http://javascript.ruanyifeng.com" target="_blank">阮一峰 Javascript</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.awesomes.cn/rank" target="_blank">前端 TOP 100</a></td>
+        <td><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000" target="_blank">小白的零基础JavaScript全栈教程</a></td>
     </tr>
 </table>
 
@@ -95,64 +120,112 @@
 
 
 ## Angular
-| Article | Angular文档 |
--------------------------------------------------------------------------------
-<td>[Angular源码解读publishExternalAPI函数](https://github.com/Wscats/Good-text-Share/issues/26)</td><td>[Angular源码解读setupModuleLoader函数](https://github.com/Wscats/Good-text-Share/issues/25)</td>
-<td>[Angular的ng-style用法](https://github.com/Wscats/Good-text-Share/issues/35)</td><td>[Angular判断在那个浏览器下打开的服务](https://github.com/Wscats/Good-text-Share/issues/29)</td>
-<td>[Angular文字折叠展开组件的原理分析](https://github.com/Wscats/Good-text-Share/issues/28)</td><td>[Angular服务Request异步请求的详细分析](https://github.com/Wscats/Good-text-Share/issues/21)</td>
-<td>[Angular自定义service服务详解](https://github.com/Wscats/Good-text-Share/issues/24)</td><td>[Angular自定义判断上一页是否存在的服务](https://github.com/Wscats/Good-text-Share/issues/22)</td>
-<td>[Angular操作cookies方法](https://github.com/Wscats/Good-text-Share/issues/19)</td><td>[Angular打印错误的minErr函数](https://github.com/Wscats/Good-text-Share/issues/18)</td>
-<td>[Angular的fromJson与toJson方法](https://github.com/Wscats/Good-text-Share/issues/17)</td><td>[Angular用ng-repeat生成表单并绑定ng-click时的一个细节](https://github.com/Wscats/Good-text-Share/issues/12)</td>
-<td>[Angular的run方法巧妙运用](https://github.com/Wscats/Good-text-Share/issues/6)</td><td>[Angular处理Html转义问题](https://github.com/Wscats/Good-text-Share/issues/5)</td>
-<td>[ng-repeat绑定事件和嵌套](ng-repeat绑定事件和嵌套)</td><td>[Angular的post请求后台接受不了数据的解决方法](https://github.com/Wscats/angular-demo/issues/4)</td>
-<td>[ionic总结](https://github.com/Wscats/angular-demo/issues/19)</td><td>[ui-route和ng-route](https://github.com/Wscats/angular-demo/issues/17)</td>
-<td>[ng-options&&ng-switch](https://github.com/Wscats/angular-demo/issues/15)</td><td>[directive组件作用域](https://github.com/Wscats/angular-demo/issues/14)</td>
-<td>[表单认证](https://github.com/Wscats/angular-demo/issues/13)</td><td>[$broadcast,$emit and $on](https://github.com/Wscats/angular-demo/issues/11)</td>
-<td>[自定义过滤器](https://github.com/Wscats/angular-demo/issues/9)</td><td>[自定义手势指令ng-touch](https://github.com/Wscats/angular-demo/issues/8)</td>
-<td>[ng-animate](https://github.com/Wscats/angular-demo/issues/7)</td><td>[单页面应用的技术点](https://github.com/Wscats/angular-demo/issues/3)</td>
-| **Guess you like** |**AppDemo**|
-<td>[Angular商城Demo](https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html)</td><td>[Angular的Cnode社区](https://wscats.github.io/angular-demo/spa/CNode/index.html)</td>
-<td>[AngularStovepipe](https://wscats.github.io/angular-demo/spa/Stovepipe/index.html)</td><td>[Angular的新闻客户端](https://wscats.github.io/angular-demo/spa/TT/index.html)</td>
-<td>[Angular商城Demo](https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html)</td><td>[Angular的Cnode社区](https://wscats.github.io/angular-demo/spa/CNode/index.html)</td>
-<td>[Angular内联编辑器](https://wscats.github.io/angular-demo/angularjs5examples/inline-editor/index.html)</td><td>[Angular即时搜索](https://wscats.github.io/angular-demo/angularjs5examples/instant-search</index.html)|
-|[Angular导航菜单](https://wscats.github.io/angular-demo/angularjs5examples/navigation-menu/index.html)</td><td>[Angular订单表单](https://wscats.github.io/angular-demo/angularjs5examples/order-form/index.html)</<td>d>
-|[Angular切换网格](https://wscats.github.io/angular-demo/angularjs5examples/switchable-grid/index.html)</td><td>[Angular新闻＋WEUI DEMO](https://wscats.github.io/angular-demo/spa/news/index.html) [源码](https:/<td>/github.com/Wscats/angular-demo/tree/gh-pages/spa/NodeServerAndApi-Weui-News)|
-| **Controller** |**控制器**|
-|[Angular控制器demo](https://wscats.github.io/angular-demo/view/student.html)||
-| **SPA DEMO** |**单页面应用**|
-|[Angular+Weui单页面应用DEMO-每日笑话](https://wscats.github.io/angular-demo/weui每日笑话.html)||
-| **Service** |**服务**|
-<td>[Angular自定义服务的常用方法](https://github.com/Wscats/angular-demo/blob/gh-pages/%E5%B8%B8%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E6%96%B9%E6%B3%95.md)</td><td>[Angular部分服务demo](https:/</wscats.github.io/angular-demo/部分服务demo.html)|
-<td>[Angular自定义Canvas画图服务](https://wscats.github.io/angular-demo/Angular自定义Canvas画图服务.html)</td><td>[Angular自定义http服务 面向对象封装](https://wscats.github.io/angular-demo/自定义http服务.html)</td>
-| **Directive** |**组件与指令**|
-<td>[Angular自定义手势指令](https://wscats.github.io/angular-demo/自定义手势事件.html)</td><td>[Angular自定义轮播图组件](https://wscats.github.io/angular-demo/自定义directive轮播图.html)</td>
-<td>[Angular自定义下拉刷新组件1](https://wscats.github.io/angular-demo/下拉刷新.html)</td><td>[Angular自定义下拉刷新组件2](https://wscats.github.io/angular-demo/Angular自定义下拉刷新组件.html)</td>
-| **Router** |**路由**|
-<td>[Angular路由嵌套](https://wscats.github.io/angular-demo/UI路由嵌套DEMO.html)</td><td>[Angular路由单页多个ui-view](https://wscats.github.io/angular-demo/uiRoute/index.html)</td>
-| **Filter** |**过滤器**|
-<td>[Angular自带过滤器](https://wscats.github.io/angular-demo/angular自带过滤器.html)</td><td>[Angular自定义关键词检索过滤器](https://wscats.github.io/angular-demo/自定义关键词检索过滤器.html)</td>
-| **Animate** |**动画**|
-<td>[Angular ng-animate动画1](https://wscats.github.io/angular-demo/ng-animate动画.html)</td><td>[Angular ng-animate动画2](https://wscats.github.io/angular-demo/ng-animate动画2.html)</td>
-| **Other** |**其他**|
-<td>[Angular中使用iframe](https://wscats.github.io/angular-demo/iframesdemo.html)</td><td>[Angular三级联动(1)](https://wscats.github.io/angular-demo/%E4%B8%89%E7%BA%A7%E8%81%94%E5%8A%A8.html)</td>
-<td>[Angular中使用ng-switch](https://wscats.github.io/angular-demo/ngSwitch.html)</td><td>[百度定位DEMO](https://wscats.github.io/angular-demo/百度地图定位DEMO.html)</td>
-<td>[Angular三级联动(2)](https://wscats.github.io/angular-demo/三级联动改进.html)</td><td>[Angular事件监听](https://wscats.github.io/angular-demo/事件监听.html)</td>
-<td>[jQuery模拟ng-repeat](https://wscats.github.io/angular-demo/jquery模拟ng-repeat.html)</td><td>[lessDemo](https://wscats.github.io/angular-demo/lessDemo.html)</td>
-<td>[Angular自定义cookie服务和ngCookie的使用](https://wscats.github.io/angular-demo/ngCookie.html)</td><td>[图灵机器人](https://wscats.github.io/angular-demo/图灵机器人.html)</td>
-<td>[Angular利用angular.module()实现模块化](https://wscats.github.io/angular-demo/angular模块化.html)</td><td>[Angular的form表单验证](https://wscats.github.io/angular-demo/form表单验证.html)</td>
-<td>[Angular的ng-repeat嵌套](https://wscats.github.io/angular-demo/ng-repeat嵌套.html)</td><td>[Angular利用angular.module()实现模块化2](https://wscats.github.io/angular-demo/angular模块化2.html)</td>
-| **PHP** | **PHP** |
-|[PHP CURL请求的小细节](https://github.com/Wscats/Good-text-Share/issues/53)||
-| **Reference** | **Reference** |
-<td>[最流行的PHP 代码规范](https://segmentfault.com/a/1190000000443795)</td><td>[最流行的PHP 代码规范](https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md)</td>
-<td>[Angular.js的一些学习资源](http://blog.aijc.net/AngularLearning/)</td><td>[Angularjs中文社区](http://angularjs.cn)</td>
-<td>[一些扩展Angular UI组件](https://github.com/angular-ui)</td><td>[Angular UI](http://mgcrea.github.io/angular-strap)</td>
-<td>[AngularJS在线教程](http://each.sinaapp.com/angular)</td><td>[Angular学习笔记](http://www.zouyesheng.com/angular.html)</td>
-
-</tr>
+<table>
+    <th>Article</th>
+    <th>Angular文档</th>
+    <tr>
+        <td>[Angular源码解读publishExternalAPI函数](https://github.com/Wscats/Good-text-Share/issues/26)</td>
+        <td>[Angular源码解读setupModuleLoader函数](https://github.com/Wscats/Good-text-Share/issues/25)</td>
+        <td>[Angular的ng-style用法](https://github.com/Wscats/Good-text-Share/issues/35)</td>
+        <td>[Angular判断在那个浏览器下打开的服务](https://github.com/Wscats/Good-text-Share/issues/29)</td>
+        <td>[Angular文字折叠展开组件的原理分析](https://github.com/Wscats/Good-text-Share/issues/28)</td>
+        <td>[Angular服务Request异步请求的详细分析](https://github.com/Wscats/Good-text-Share/issues/21)</td>
+        <td>[Angular自定义service服务详解](https://github.com/Wscats/Good-text-Share/issues/24)</td>
+        <td>[Angular自定义判断上一页是否存在的服务](https://github.com/Wscats/Good-text-Share/issues/22)</td>
+        <td>[Angular操作cookies方法](https://github.com/Wscats/Good-text-Share/issues/19)</td>
+        <td>[Angular打印错误的minErr函数](https://github.com/Wscats/Good-text-Share/issues/18)</td>
+        <td>[Angular的fromJson与toJson方法](https://github.com/Wscats/Good-text-Share/issues/17)</td>
+        <td>[Angular用ng-repeat生成表单并绑定ng-click时的一个细节](https://github.com/Wscats/Good-text-Share/issues/12)</td>
+        <td>[Angular的run方法巧妙运用](https://github.com/Wscats/Good-text-Share/issues/6)</td>
+        <td>[Angular处理Html转义问题](https://github.com/Wscats/Good-text-Share/issues/5)</td>
+        <td>[ng-repeat绑定事件和嵌套](ng-repeat绑定事件和嵌套)</td>
+        <td>[Angular的post请求后台接受不了数据的解决方法](https://github.com/Wscats/angular-demo/issues/4)</td>
+        <td>[ionic总结](https://github.com/Wscats/angular-demo/issues/19)</td>
+        <td>[ui-route和ng-route](https://github.com/Wscats/angular-demo/issues/17)</td>
+        <td>[ng-options&&ng-switch](https://github.com/Wscats/angular-demo/issues/15)</td>
+        <td>[directive组件作用域](https://github.com/Wscats/angular-demo/issues/14)</td>
+        <td>[表单认证](https://github.com/Wscats/angular-demo/issues/13)</td>
+        <td>[$broadcast,$emit and $on](https://github.com/Wscats/angular-demo/issues/11)</td>
+        <td>[自定义过滤器](https://github.com/Wscats/angular-demo/issues/9)</td>
+        <td>[自定义手势指令ng-touch](https://github.com/Wscats/angular-demo/issues/8)</td>
+        <td>[ng-animate](https://github.com/Wscats/angular-demo/issues/7)</td>
+        <td>[单页面应用的技术点](https://github.com/Wscats/angular-demo/issues/3)</td>
+        <td>Guess you like</td>
+        <td>AppDemo</td>
+        <td>[Angular商城Demo](https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html)</td>
+        <td>[Angular的Cnode社区](https://wscats.github.io/angular-demo/spa/CNode/index.html)</td>
+        <td>[AngularStovepipe](https://wscats.github.io/angular-demo/spa/Stovepipe/index.html)</td>
+        <td>[Angular的新闻客户端](https://wscats.github.io/angular-demo/spa/TT/index.html)</td>
+        <td>[Angular商城Demo](https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html)</td>
+        <td>[Angular的Cnode社区](https://wscats.github.io/angular-demo/spa/CNode/index.html)</td>
+        <td>[Angular内联编辑器](https://wscats.github.io/angular-demo/angularjs5examples/inline-editor/index.html)</td>
+        <td>[Angular即时搜索](https://wscats.github.io/angular-demo/angularjs5examples/instant-search/index.html)</td>
+        <td>[Angular导航菜单](https://wscats.github.io/angular-demo/angularjs5examples/navigation-menu/index.html)</td>
+        <td>[Angular订单表单](https://wscats.github.io/angular-demo/angularjs5examples/order-form/index.html)</td>
+        <td>[Angular切换网格](https://wscats.github.io/angular-demo/angularjs5examples/switchable-grid/index.html)</td>
+        <td>[Angular新闻＋WEUI DEMO](https://wscats.github.io/angular-demo/spa/news/index.html)</td>
+        <td> [源码](https://github.com/Wscats/angular-demo/tree/gh-pages/spa/NodeServerAndApi-Weui-News) </td>
+        <td> Controller</td>
+        <td>控制器</td>
+        <td>[Angular控制器demo](https://wscats.github.io/angular-demo/view/student.html)</td>
+        <td>SPA DEMO</td>
+        <td>单页面应用</td>
+        <td>[Angular+Weui单页面应用DEMO-每日笑话](https://wscats.github.io/angular-demo/weui每日笑话.html)</td>
+        <td>Service</td>
+        <td>服务</td>
+        <td>[Angular自定义服务的常用方法](https://github.com/Wscats/angular-demo/blob/gh-pages/%E5%B8%B8%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E6%96%B9%E6%B3%95.md)</td>
+        <td>[Angular部分服务demo](https://wscats.github.io/angular-demo/部分服务demo.html)</td>
+        <td>[Angular自定义Canvas画图服务](https://wscats.github.io/angular-demo/Angular自定义Canvas画图服务.html)</td>
+        <td>[Angular自定义http服务 面向对象封装](https://wscats.github.io/angular-demo/自定义http服务.html)</td>
+        <td>Directive</td>
+        <td>组件与指令</td>
+        <td>[Angular自定义手势指令](https://wscats.github.io/angular-demo/自定义手势事件.html)</td>
+        <td>[Angular自定义轮播图组件](https://wscats.github.io/angular-demo/自定义directive轮播图.html)</td>
+        <td>[Angular自定义下拉刷新组件1](https://wscats.github.io/angular-demo/下拉刷新.html)</td>
+        <td>[Angular自定义下拉刷新组件2](https://wscats.github.io/angular-demo/Angular自定义下拉刷新组件.html)</td>
+        <td>Router</td>
+        <td>路由</td>
+        <td>[Angular路由嵌套](https://wscats.github.io/angular-demo/UI路由嵌套DEMO.html)</td>
+        <td>[Angular路由单页多个ui-view](https://wscats.github.io/angular-demo/uiRoute/index.html)</td>
+        <td>Filter</td>
+        <td>过滤器</td>
+        <td>[Angular自带过滤器](https://wscats.github.io/angular-demo/angular自带过滤器.html)</td>
+        <td>[Angular自定义关键词检索过滤器](https://wscats.github.io/angular-demo/自定义关键词检索过滤器.html)</td>
+        <td>Animate</td>
+        <td>动画</td>
+        <td>[Angular ng-animate动画1](https://wscats.github.io/angular-demo/ng-animate动画.html)</td>
+        <td>[Angular ng-animate动画2](https://wscats.github.io/angular-demo/ng-animate动画2.html)</td>
+        <td>Other</td>
+        <td>其他</td>
+        <td>[Angular中使用iframe](https://wscats.github.io/angular-demo/iframesdemo.html)</td>
+        <td>[Angular三级联动(1)](https://wscats.github.io/angular-demo/%E4%B8%89%E7%BA%A7%E8%81%94%E5%8A%A8.html)</td>
+        <td>[Angular中使用ng-switch](https://wscats.github.io/angular-demo/ngSwitch.html)</td>
+        <td>[百度定位DEMO](https://wscats.github.io/angular-demo/百度地图定位DEMO.html)</td>
+        <td>[Angular三级联动(2)](https://wscats.github.io/angular-demo/三级联动改进.html)</td>
+        <td>[Angular事件监听](https://wscats.github.io/angular-demo/事件监听.html)</td>
+        <td>[jQuery模拟ng-repeat](https://wscats.github.io/angular-demo/jquery模拟ng-repeat.html)</td>
+        <td>[lessDemo](https://wscats.github.io/angular-demo/lessDemo.html)</td>
+        <td>[Angular自定义cookie服务和ngCookie的使用](https://wscats.github.io/angular-demo/ngCookie.html)</td>
+        <td>[图灵机器人](https://wscats.github.io/angular-demo/图灵机器人.html)</td>
+        <td>[Angular利用angular.module()实现模块化](https://wscats.github.io/angular-demo/angular模块化.html)</td>
+        <td>[Angular的form表单验证](https://wscats.github.io/angular-demo/form表单验证.html)</td>
+        <td>[Angular的ng-repeat嵌套](https://wscats.github.io/angular-demo/ng-repeat嵌套.html)</td>
+        <td>[Angular利用angular.module()实现模块化2](https://wscats.github.io/angular-demo/angular模块化2.html)</td>
+        <td>PHP</td>
+        <td>PHP*</td>
+        <td>[PHP CURL请求的小细节](https://github.com/Wscats/Good-text-Share/issues/53)</td>
+        <td>Reference</td>
+        <td>Reference</td>
+        <td>[最流行的PHP 代码规范](https://segmentfault.com/a/1190000000443795)</td>
+        <td>[最流行的PHP 代码规范](https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md)</td>
+        <td>[Angular.js的一些学习资源](http://blog.aijc.net/AngularLearning/)</td>
+        <td>[Angularjs中文社区](http://angularjs.cn)</td>
+        <td>[一些扩展Angular UI组件](https://github.com/angular-ui)</td>
+        <td>[Angular UI](http://mgcrea.github.io/angular-strap)</td>
+        <td>[AngularJS在线教程](http://each.sinaapp.com/angular)</td>
+        <td>[Angular学习笔记](http://www.zouyesheng.com/angular.html)</td>
+    </tr>
 </table>
-
-
 ## React
 
 | React | Reference |
@@ -176,11 +249,11 @@
 | Vue |AppDemo|Demo|
 -------------------------------------------------------------------------------
 |[NewsDemo](https://wscats.github.io/vue-demo/news/index.html)</td><td>[vue计算属性](https://wscats.github.io/vue-demo/vue计算属性.html)</td><td>[vue生命周期](https://wscats.github.io/vue-demo/vue生命周期.html)<td>/td>
-| **Article** |**Vue文档**||
+| **Article</td><td>Vue文档</td>|
 <td>[Vue-cli脚手架](https://github.com/Wscats/vue-demo/issues/2)</td><td>[Vue组件](https://github.com/Wscats/vue-demo/issues/3)</td><td>[vue自定义指令](https://github.com/Wscats/vue-demo/issues/8)</td>
 <td>[Vue过渡动画](https://github.com/Wscats/vue-demo/issues/9)</td><td>[Vue指令](https://github.com/Wscats/vue-demo/issues/7)</td><td>[Vue api文档](https://github.com/Wscats/vue-demo/issues/6)</td>
 <td>[Vue执行ajax请求](https://github.com/Wscats/vue-demo/issues/5)</td><td>[vue实现类似angular服务的方法](https://github.com/Wscats/vue-demo/issues/4)</td><td>[Vue源码参考文档](https://github.com/Wscats/vue-demo</issues/10)|
-| **Router** |**路由**||
+| **Router</td><td>路由**||
 <td>[路由demo](https://wscats.github.io/vue-demo/路由.html)</td><td>[路由demo2](https://wscats.github.io/vue-demo/路由2.html)|</td>
 | **Directive** |**指令**||
 |[指令demo](https://wscats.github.io/vue-demo/指令.html)</td><td>[自定义指令demo](https://wscats.github.io/vue-demo/自定义指令.html)</td><td>[滑动手势demo](https://wscats.github.io/vue-demo/滑动手势指令.html)</<td>d>
