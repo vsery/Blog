@@ -5,8 +5,9 @@
     <th>Article</th>
     <th>Article</th>
     <tr>
-        <td>[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)</td>
+        <td><a href="https://github.com/Wscats/Good-text-Share/issues/57">Javascript深浅拷贝</a></td>
         <td>[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)</td>
+    </tr>
         <td>[Javascript的jsonp原理](https://github.com/Wscats/Good-text-Share/issues/55)</td>
         <td>[Javascript监听触摸事件](https://github.com/Wscats/Good-text-Share/issues/49)</td>
         <td>[Javascript中的var self = this](https://github.com/Wscats/Good-text-Share/issues/52)</td>
