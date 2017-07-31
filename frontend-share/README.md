@@ -1,6 +1,7 @@
 :smiley_cat:_These share data are from my usual work and learning，hoping to help you，If you like you can star_
 
 ## Javascript
+
 | Article | Article |
 |[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)|[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)|
 |[Javascript的jsonp原理](https://github.com/Wscats/Good-text-Share/issues/55)|[Javascript监听触摸事件](https://github.com/Wscats/Good-text-Share/issues/49)|
