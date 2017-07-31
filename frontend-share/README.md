@@ -1,8 +1,20 @@
 ## Javascript(ABC)
 
-| Article | Article |
+<table>
+<th>
+    <td>
+        Article </td>
+    <td> Article
+    </td>
+</th>
+<tr>
+    <td>[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)</td>
+    <td>[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)</td>
+</tr>
+</table>
+|
 -------------------------------------------------------------------------------
-|[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)|[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)|
+|||
 |[Javascript的jsonp原理](https://github.com/Wscats/Good-text-Share/issues/55)|[Javascript监听触摸事件](https://github.com/Wscats/Good-text-Share/issues/49)|
 |[Javascript中的var self = this](https://github.com/Wscats/Good-text-Share/issues/52)|[Javascript面向对象编程](https://github.com/Wscats/Good-text-Share/issues/32)|
 |[Javascript滑屏切换场景](https://github.com/Wscats/Good-text-Share/issues/14)|[Javascript获取经纬度，关于调用百度API的问题](https://github.com/Wscats/Good-text-Share/issues/16)|
