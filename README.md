@@ -41,11 +41,11 @@
 ## 内容贡献者,感谢他们.排名不分先后.
 
 ```
-    fouber
-    JacksonTian
-    Wscats
-    f2e-journey
-    alsotang
+    [fouber](https://github.com/fouber)
+    [JacksonTian](https://github.com/JacksonTian)
+    [Wscats](https://github.com/Wscats)
+    [f2e-journey](https://github.com/f2e-journey)
+    [alsotang](https://github.com/alsotang)
 
 ```
 
