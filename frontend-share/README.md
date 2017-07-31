@@ -2,10 +2,8 @@
 
 <table>
 <th>
-    <td>
-        Article </td>
-    <td> Article
-    </td>
+    <td>Article</td>
+    <td>Article</td>
 </th>
 <tr>
     <td>[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)</td>
