@@ -1,5 +1,6 @@
 # Blog
 
+> :smiley_cat:_These share data are from my usual work and learning，hoping to help you，If you like you can star_
 > 我只是记录下自己所见所想，与正在经历的技术一起改变，并在此过过程一起交流心得。虽然其中很大部分是fork过来以后改的，感谢前辈们的贡献。
 
 [欢迎大家一起来讨论](https://github.com/vsery/Blog/issues/1)

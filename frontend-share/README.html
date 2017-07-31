@@ -1,0 +1,2240 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>/*github*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
+</style><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: false
+  },
+  TeX: {
+    extensions: ["AMSmath.js", "AMSsymbols.js"],
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    equationNumbers: {
+      autoNumber: "AMS",
+    },
+    unicode: {
+      fonts: "STIXGeneral,'Arial Unicode MS'"
+    }
+  },
+  showProcessingMessages: false
+});
+</script>
+<title>README</title></head><body><article class="markdown-body"><p><img align="absmiddle" alt=":smiley_cat:" class="emoji" height="20px" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f63a.png" title=":smiley_cat:" width="20px" /><em>These share data are from my usual work and learning，hoping to help you，If you like you can star</em></p>
+<h2 id="javascript"><a name="user-content-javascript" href="#javascript" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Javascript</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/57">Javascript深浅拷贝</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/56">Javascript中的apply和call继承</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/55">Javascript的jsonp原理</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/49">Javascript监听触摸事件</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/52">Javascript中的var self = this</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/32">Javascript面向对象编程</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/14">Javascript滑屏切换场景</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/16">Javascript获取经纬度，关于调用百度API的问题</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/3">妙用Javascript运算符</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/1">深入理解Javascript函数编程</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/4">Javascript的setTimeout详细用例</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/42">sessionstorage，localstorage和cookie</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/11">JS日期对比</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/10">JSONP参考文章</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/createElement.html">Javascript的createElement</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/createDocumentFragment.html">Javascript的createDocumentFragment</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/sessionStoragelocalStorage.html">sessionStorage和localStorage</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/像素动画.html">像素帧动画</a></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/windiest/Front-end-tutorial">收集最全前端学习资料</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share">最全前端教程-猫的回忆录</a></td>
+</tr>
+<tr>
+<td><a href="https://segmentfault.com/a/1190000002640298">JavaScript中的this陷阱的最全收集&ndash;没有之一</a></td>
+<td align="center"><a href="https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html">JS函数式编程指南</a></td>
+</tr>
+<tr>
+<td><a href="http://liubin.github.io/promises-book">JavaScript Promise迷你书（中文版）</a></td>
+<td align="center"><a href="http://javascript.ruanyifeng.com">阮一峰 Javascript</a></td>
+</tr>
+<tr>
+<td><a href="https://www.awesomes.cn/rank">前端 TOP 100</a></td>
+<td align="center"><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">小白的零基础JavaScript全栈教程</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ui"><a name="user-content-ui" href="#ui" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>UI</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/weui/weui">WeUI</a></td>
+<td align="center"><a href="http://www.bootcss.com">Bootstrap</a></td>
+</tr>
+<tr>
+<td><a href="http://dev.dcloud.net.cn/mui/">MUI-最接近原生APP体验的高性能前端框架</a></td>
+<td align="center"><a href="http://amazeui.org">Amaze UI中国首个开源HTML5跨屏前端框架</a></td>
+</tr>
+<tr>
+<td><a href="http://frozenui.github.io/">Frozen UI</a></td>
+<td align="center"><a href="http://foundation.zurb.com/">Foundation</a></td>
+</tr>
+<tr>
+<td><a href="http://sui.taobao.org/sui/docs/">SUI</a></td>
+<td align="center"><a href="https://github.com/easysoft/zui">ZUI</a></td>
+</tr>
+<tr>
+<td><a href="http://m.sui.taobao.org">淘宝HTML5前端框架</a></td>
+<td align="center"><a href="http://docs.kissyui.com">KISSY - 阿里前端JavaScript库</a></td>
+</tr>
+<tr>
+<td><a href="http://nej.netease.com">网易Nej - Nice Easy Javascript</a></td>
+<td align="center"><a href="http://demos.telerik.com/kendo-ui/mvvm/index">Kendo UI MVVM Demo</a></td>
+</tr>
+<tr>
+<td><a href="http://smartui.chinamzz.com">Smart UI</a></td>
+<td align="center"><a href="http://developer.yahoo.com/yui/grids">雅虎UI - CSS UI</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="css"><a name="user-content-css" href="#css" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>CSS</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/41">CSS Flex布局</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/38">移动前端开发CSS3</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/43">响应式布局 媒体查询</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/34">CSS图片响应式布局</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/stylesheets/styles.less">lessDemo的less文件</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="http://tympanus.net/codrops/css_reference">CSS 语法参考</a></td>
+<td align="center"><a href="http://isux.tencent.com/css3/index.html">CSS3动画手册</a></td>
+</tr>
+<tr>
+<td><a href="http://isux.tencent.com/css3/tools.html">腾讯css3动画制作工具</a></td>
+<td align="center"><a href="http://daneden.github.io/animate.css">animate.css</a></td>
+</tr>
+<tr>
+<td><a href="http://tympanus.net/Development/AnimatedBooks/">Animated Books with CSS 3D Transforms</a></td>
+<td align="center"><a href="http://browserhacks.com/">Browserhacks</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="html"><a name="user-content-html" href="#html" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>HTML</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.zhihu.com/question/24398907">HTML5有哪些让你惊艳的demo</a></td>
+<td align="center"><a href="http://www.wallpaperbetter.com/">Wallpaperbetter</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="angular"><a name="user-content-angular" href="#angular" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Angular</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Angular文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/26">Angular源码解读publishExternalAPI函数</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/25">Angular源码解读setupModuleLoader函数</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/35">Angular的ng-style用法</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/29">Angular判断在那个浏览器下打开的服务</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/28">Angular文字折叠展开组件的原理分析</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/21">Angular服务Request异步请求的详细分析</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/24">Angular自定义service服务详解</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/22">Angular自定义判断上一页是否存在的服务</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/19">Angular操作cookies方法</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/18">Angular打印错误的minErr函数</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/17">Angular的fromJson与toJson方法</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/12">Angular用ng-repeat生成表单并绑定ng-click时的一个细节</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/6">Angular的run方法巧妙运用</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/5">Angular处理Html转义问题</a></td>
+</tr>
+<tr>
+<td><a href="ng-repeat绑定事件和嵌套">ng-repeat绑定事件和嵌套</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/4">Angular的post请求后台接受不了数据的解决方法</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/issues/19">ionic总结</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/17">ui-route和ng-route</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/issues/15">ng-options&amp;&amp;ng-switch</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/14">directive组件作用域</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/issues/13">表单认证</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/11">$broadcast,$emit and $on</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/issues/9">自定义过滤器</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/8">自定义手势指令ng-touch</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/issues/7">ng-animate</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/issues/3">单页面应用的技术点</a></td>
+</tr>
+<tr>
+<td><strong>Guess you like</strong></td>
+<td align="center"><strong>AppDemo</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html">Angular商城Demo</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/spa/CNode/index.html">Angular的Cnode社区</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/spa/Stovepipe/index.html">AngularStovepipe</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/spa/TT/index.html">Angular的新闻客户端</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/spa/mobie-b2bdemo1/index.html">Angular商城Demo</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/spa/CNode/index.html">Angular的Cnode社区</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/angularjs5examples/inline-editor/index.html">Angular内联编辑器</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/angularjs5examples/instant-search/index.html">Angular即时搜索</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/angularjs5examples/navigation-menu/index.html">Angular导航菜单</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/angularjs5examples/order-form/index.html">Angular订单表单</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/angularjs5examples/switchable-grid/index.html">Angular切换网格</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/spa/news/index.html">Angular新闻＋WEUI DEMO</a> <a href="https://github.com/Wscats/angular-demo/tree/gh-pages/spa/NodeServerAndApi-Weui-News">源码</a></td>
+</tr>
+<tr>
+<td><strong>Controller</strong></td>
+<td align="center"><strong>控制器</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/view/student.html">Angular控制器demo</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>SPA DEMO</strong></td>
+<td align="center"><strong>单页面应用</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/weui每日笑话.html">Angular+Weui单页面应用DEMO-每日笑话</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Service</strong></td>
+<td align="center"><strong>服务</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/angular-demo/blob/gh-pages/%E5%B8%B8%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%8D%E5%8A%A1%E6%96%B9%E6%B3%95.md">Angular自定义服务的常用方法</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/部分服务demo.html">Angular部分服务demo</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/Angular自定义Canvas画图服务.html">Angular自定义Canvas画图服务</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/自定义http服务.html">Angular自定义http服务 面向对象封装</a></td>
+</tr>
+<tr>
+<td><strong>Directive</strong></td>
+<td align="center"><strong>组件与指令</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/自定义手势事件.html">Angular自定义手势指令</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/自定义directive轮播图.html">Angular自定义轮播图组件</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/下拉刷新.html">Angular自定义下拉刷新组件1</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/Angular自定义下拉刷新组件.html">Angular自定义下拉刷新组件2</a></td>
+</tr>
+<tr>
+<td><strong>Router</strong></td>
+<td align="center"><strong>路由</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/UI路由嵌套DEMO.html">Angular路由嵌套</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/uiRoute/index.html">Angular路由单页多个ui-view</a></td>
+</tr>
+<tr>
+<td><strong>Filter</strong></td>
+<td align="center"><strong>过滤器</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/angular自带过滤器.html">Angular自带过滤器</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/自定义关键词检索过滤器.html">Angular自定义关键词检索过滤器</a></td>
+</tr>
+<tr>
+<td><strong>Animate</strong></td>
+<td align="center"><strong>动画</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/ng-animate动画.html">Angular ng-animate动画1</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/ng-animate动画2.html">Angular ng-animate动画2</a></td>
+</tr>
+<tr>
+<td><strong>Other</strong></td>
+<td align="center"><strong>其他</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/iframesdemo.html">Angular中使用iframe</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/%E4%B8%89%E7%BA%A7%E8%81%94%E5%8A%A8.html">Angular三级联动(1)</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/ngSwitch.html">Angular中使用ng-switch</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/百度地图定位DEMO.html">百度定位DEMO</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/三级联动改进.html">Angular三级联动(2)</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/事件监听.html">Angular事件监听</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/jquery模拟ng-repeat.html">jQuery模拟ng-repeat</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/lessDemo.html">lessDemo</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/ngCookie.html">Angular自定义cookie服务和ngCookie的使用</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/图灵机器人.html">图灵机器人</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/angular模块化.html">Angular利用angular.module()实现模块化</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/form表单验证.html">Angular的form表单验证</a></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/angular-demo/ng-repeat嵌套.html">Angular的ng-repeat嵌套</a></td>
+<td align="center"><a href="https://wscats.github.io/angular-demo/angular模块化2.html">Angular利用angular.module()实现模块化2</a></td>
+</tr>
+<tr>
+<td><strong>PHP</strong></td>
+<td align="center"><strong>PHP</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/53">PHP CURL请求的小细节</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="https://segmentfault.com/a/1190000000443795">最流行的PHP 代码规范</a></td>
+<td align="center"><a href="https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md">最流行的PHP 代码规范</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.aijc.net/AngularLearning/">Angular.js的一些学习资源</a></td>
+<td align="center"><a href="http://angularjs.cn">Angularjs中文社区</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/angular-ui">一些扩展Angular UI组件</a></td>
+<td align="center"><a href="http://mgcrea.github.io/angular-strap">Angular UI</a></td>
+</tr>
+<tr>
+<td><a href="http://each.sinaapp.com/angular">AngularJS在线教程</a></td>
+<td align="center"><a href="http://www.zouyesheng.com/angular.html">Angular学习笔记</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="react"><a name="user-content-react" href="#react" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>React</h2>
+<table>
+<thead>
+<tr>
+<th>React</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.runoob.com/react/react-tutorial.html">React教程 菜鸟教程</a></td>
+<td align="center"><a href="http://www.ruanyifeng.com/blog/2016/05/react_router.html?utm_source=tool.lu">React Router 使用教程</a></td>
+</tr>
+<tr>
+<td><a href="http://wiki.jikexueyuan.com/project/react/">React开发中文手册-极客学院</a></td>
+<td align="center"><a href="http://www.hubwiz.com/course/552762019964049d1872fc88/">React教程-汇智网</a></td>
+</tr>
+<tr>
+<td><a href="http://www.phperz.com/article/15/0712/140537.html#">React.js快速开始</a></td>
+<td align="center"><a href="http://www.alloyteam.com/2016/01/reactjs-best-practices-for-2016/">Reactjs 2016最佳实践</a></td>
+</tr>
+<tr>
+<td><a href="https://hulufei.gitbooks.io/react-tutorial/content/introduction.html">React 入门教程</a></td>
+<td align="center"><a href="http://www.hubwiz.com/course/552762019964049d1872fc88/?ch=alloyteam">汇智网 React教程</a></td>
+</tr>
+<tr>
+<td><a href="https://segmentfault.com/a/1190000002767365">轻松入门React和Webpack</a></td>
+<td align="center"><a href="http://nav.react-china.org/#docs">React中文索引</a></td>
+</tr>
+<tr>
+<td><a href="http://cn.redux.js.org/">Redux 中文文档</a></td>
+<td align="center"><a href="https://github.com/react-guide/react-router-cn">React Router官方文档中文翻译</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/kunyashaw/p/5619256.html">React入门教程</a></td>
+<td align="center"><a href="http://www.ibm.com/developerworks/cn/web/1509_dongyue_react/index.html">React介绍及实践教程</a></td>
+</tr>
+<tr>
+<td><a href="https://facebook.github.io/react/index.html">React.js 官方网址</a></td>
+<td align="center"><a href="https://facebook.github.io/react/docs/getting-started.html">React.js 官方文档</a></td>
+</tr>
+<tr>
+<td><a href="http://material-ui.com/#">React.js material UI</a></td>
+<td align="center"><a href="http://touchstonejs.io">React.js TouchstoneJS UI</a></td>
+</tr>
+<tr>
+<td><a href="http://amazeui.org/react">React.js amazeui UI</a></td>
+<td align="center"><a href="http://www.ruanyifeng.com/blog/2015/03/react.html">React 入门实例教程 - 阮一峰</a></td>
+</tr>
+<tr>
+<td><a href="http://wiki.jikexueyuan.com/project/react-native">React Native 中文版</a></td>
+<td align="center"><a href="https://fakefish.github.io/react-webpack-cookbook">Webpack 和 React 小书 - gitbook</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="vue"><a name="user-content-vue" href="#vue" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Vue</h2>
+<table>
+<thead>
+<tr>
+<th>Vue</th>
+<th align="center">AppDemo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/news/index.html">NewsDemo</a></td>
+<td align="center"><a href="https://wscats.github.io/vue-demo/vue计算属性.html">vue计算属性</a></td>
+</tr>
+<tr>
+<td><strong>Article</strong></td>
+<td align="center"><strong>Vue文档</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/vue-demo/issues/2">Vue-cli脚手架</a></td>
+<td align="center"><a href="https://github.com/Wscats/vue-demo/issues/3">Vue组件</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/vue-demo/issues/9">Vue过渡动画</a></td>
+<td align="center"><a href="https://github.com/Wscats/vue-demo/issues/7">Vue指令</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/vue-demo/issues/5">Vue执行ajax请求</a></td>
+<td align="center"><a href="https://github.com/Wscats/vue-demo/issues/4">vue实现类似angular服务的方法</a></td>
+</tr>
+<tr>
+<td><strong>Router</strong></td>
+<td align="center"><strong>路由</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/路由.html">路由demo</a></td>
+<td align="center"><a href="https://wscats.github.io/vue-demo/路由2.html">路由demo2</a></td>
+</tr>
+<tr>
+<td><strong>Directive</strong></td>
+<td align="center"><strong>指令</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/指令.html">指令demo</a></td>
+<td align="center"><a href="https://wscats.github.io/vue-demo/自定义指令.html">自定义指令demo</a></td>
+</tr>
+<tr>
+<td><strong>Filter</strong></td>
+<td align="center"><strong>过滤器</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/过滤器.html">过滤器demo</a></td>
+<td align="center"><a href="https://wscats.github.io/vue-demo/vue使用过滤器实现分页.html">过滤器实现分页demo</a></td>
+</tr>
+<tr>
+<td><strong>Transition</strong></td>
+<td align="center"><strong>过渡</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/过渡.html">过渡demo</a></td>
+<td align="center"><a href="https://wscats.github.io/vue-demo/过渡2.html">过渡demo2</a></td>
+</tr>
+<tr>
+<td><strong>Form</strong></td>
+<td align="center"><strong>表单</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/vue获取表单值.html">获取表单值</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Computed</strong></td>
+<td align="center"><strong>计算</strong></td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/vue计算属性.html">计算属性</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Component</td>
+<td align="center">组件</td>
+</tr>
+<tr>
+<td><a href="https://wscats.github.io/vue-demo/组件.html">组件demo</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="http://cn.vuejs.org">Vue官网</a></td>
+<td align="center"><a href="http://forum.vuejs.org">Vue论坛</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="node"><a name="user-content-node" href="#node" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Node</h2>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/44">node技巧</a></td>
+<td align="center"><a href="https://github.com/Wscats/angular-demo/tree/gh-pages/diyNodeServer">NodeJs静态服务器</a></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="https://github.com/alsotang/node-lessons">Node.js 包教不包会</a></td>
+<td align="center"><a href="http://nqdeng.github.io/7-days-nodejs/">七天学会NodeJS</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.fens.me/series-nodejs">从零开始nodejs系列文章</a></td>
+<td align="center"><a href="http://www.nodebeginner.org/index-zh-cn.html">Node入门</a></td>
+</tr>
+<tr>
+<td><a href="http://ourjs.com/detail/529ca5950cb6498814000005">Node初学者入门，一本全面的NodeJS教程</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="gulp"><a name="user-content-gulp" href="#gulp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Gulp</h2>
+<table>
+<thead>
+<tr>
+<th>Gulp</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/glup">Gulp Demo</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Gulp</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="http://gulpjs.com">Gulp官网</a></td>
+<td align="center"><a href="http://www.gulpjs.com.cn">Gulp中文网</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Platform-CUF/use-gulp">Gulp资料收集</a></td>
+<td align="center"><a href="http://javascript.ruanyifeng.com/tool/gulp.html">Gulp：任务自动管理工具 - ruanyifeng</a></td>
+</tr>
+<tr>
+<td><a href="http://gulpjs.com/plugins]">Gulp插件</a></td>
+<td align="center"><a href="http://www.ido321.com/1622.html">Gulp不完全入门教程</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/nimojs/gulp-book">Gulp 入门指南</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>其他</h2>
+<table>
+<thead>
+<tr>
+<th>Other</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/node-demo/issues/4">关于Pornographic website的一些前端分析</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/50">微信公众号开发</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/30">Atom技巧总结</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/46">Mac小技巧</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/9">CSDN页面内JS跳转脚本</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/8">CSDN博客隐藏配置</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/7">百度设置小度机器人出现</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/2">前端冷知识，妙用浏览器地址栏</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/27">Vim笔记</a></td>
+<td align="center"><a href="https://github.com/Wscats/Good-text-Share/issues/48">Cordova配置&amp;&amp;Ionic配置（WebApp混合开发环境）</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/33">IE8及以下按钮超链接无法跳转的问题</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>分享功能</h2>
+<table>
+<thead>
+<tr>
+<th>Share</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://share.baidu.com">百度分享(PC)</a></td>
+<td align="center"><a href="http://jiathis.com">JiaThis(PC)</a></td>
+</tr>
+<tr>
+<td><a href="http://developer.baidu.com/soc/share">社会化分享组件(Mobile)</a></td>
+<td align="center"><a href="http://www.mob.com">ShareSDK轻松实现社会化功能(Mobile)</a></td>
+</tr>
+<tr>
+<td><a href="http://dev.umeng.com/social/android/quick-integration">友盟分享(Mobile)</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3"><a name="user-content-_3" href="#_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>在线演示</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://runjs.cn">js 在线编辑 - runjs</a></td>
+<td align="center"><a href="http://jsbin.com">js 在线编辑 - jsbin</a></td>
+</tr>
+<tr>
+<td><a href="http://codepen.io">js 在线编辑 - codepen</a></td>
+<td align="center"><a href="http://jsfiddle.net">js 在线编辑 - jsfiddle</a></td>
+</tr>
+<tr>
+<td><a href="http://ideone.com">java 在线编辑 - runjs</a></td>
+<td align="center"><a href="http://code.hcharts.cn">js 在线编辑 - hcharts</a></td>
+</tr>
+<tr>
+<td><a href="http://jsdm.com">js 在线编辑 - jsdm</a></td>
+<td align="center"><a href="http://sqlfiddle.com">sql 在线编辑 - sqlfiddle</a></td>
+</tr>
+<tr>
+<td><a href="https://thimble.mozilla.org">mozilla 在线编辑器</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4"><a name="user-content-_4" href="#_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>富文本编辑器</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://ueditor.baidu.com/website">百度ueditor</a></td>
+<td align="center"><a href="http://ckeditor.com">ckeditor</a></td>
+</tr>
+<tr>
+<td><a href="https://www.tinymce.com">tinymce</a></td>
+<td align="center"><a href="http://kindeditor.net">kindeditor</a></td>
+</tr>
+<tr>
+<td><a href="http://www.bootcss.com/p/bootstrap-wysiwyg">wysiwyg</a></td>
+<td align="center"><a href="http://integ.github.io/BachEditor">BachEditor</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/mycolorway/simditor">simditor</a></td>
+<td align="center"><a href="https://github.com/summernote/summernote">summernote</a></td>
+</tr>
+<tr>
+<td><a href="http://neilj.github.io/Squire">Squire</a></td>
+<td align="center"><a href="https://github.com/wangfupeng1988/wangEditor">wangEditor</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="chrome"><a name="user-content-chrome" href="#chrome" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Chrome</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.cnblogs.com/constantince/p/4565261.html">Chrome - 基础</a></td>
+<td align="center"><a href="http://www.cnblogs.com/constantince/p/4579121.html">Chrome - 进阶</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/constantince/p/4585983.html">Chrome - 性能</a></td>
+<td align="center"><a href="http://www.cnblogs.com/constantince/p/4607497.html">Chrome - 性能进阶</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/constantince/p/4624241.html">Chrome - 移动</a></td>
+<td align="center"><a href="http://www.cnblogs.com/liyunhua/p/4544738.html">Chrome - 使用技巧</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/Wayou/p/chrome-console-tips-and-tricks.html">Chrome - Console控制台不完全指南</a></td>
+<td align="center"><a href="http://anti-code.com/devtools-cheatsheet">chrome开发工具快捷键</a></td>
+</tr>
+<tr>
+<td><a href="http://www.iinterest.net/2014/05/09/chrome-dev-tool-workspace">Chrome 开发工具 Workspace 使用</a></td>
+<td align="center"><a href="http://www.cppblog.com/deercoder/archive/2011/10/22/158886.html">Chrome神器Vimium快捷键学习记录</a></td>
+</tr>
+<tr>
+<td><a href="http://www.w3cplus.com/sassguide/debug.html">Sass调试-w3cplus</a></td>
+<td align="center"><a href="http://www.w3cplus.com/tools/how-to-use-chrome-devtools-like-a-pro.html">如何更专业的使用Chrome开发者工具-w3cplus</a></td>
+</tr>
+<tr>
+<td><a href="http://sentsin.com/web/253.html">Chrome调试canvas</a></td>
+<td align="center"><a href="https://segmentfault.com/a/1190000000683599">神器——Chrome开发者工具(一)</a></td>
+</tr>
+<tr>
+<td><a href="https://xinranliu.me/2015-05-22-qiqu-performance">奇趣百科性能优化(Chrome DevTools 中的 Timeline Profils 等工具使用介绍</a></td>
+<td align="center"><a href="http://frontenddev.org/link/15-tips-of-chrome-developer-tools.html">Chrome 开发者工具的 15 个小技巧</a></td>
+</tr>
+<tr>
+<td><a href="http://1ke.co/course/361">Chrome开发者工具不完全指南</a></td>
+<td align="center"><a href="http://segmentfault.com/a/1190000003882567">Chrome 开发者工具使用技巧</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5"><a name="user-content-_5" href="#_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>性能优化</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.infoq.com/cn/articles/javascript-high-performance-animation-and-page-rendering">Javascript高性能动画与页面渲染</a></td>
+<td align="center"><a href="http://isux.tencent.com/h5-performance.html">移动H5前端性能优化指南</a></td>
+</tr>
+<tr>
+<td><a href="http://www.uisdc.com/front-end-performance-for-web-designers-and-front-end-developers">给网页设计师和前端开发者看的前端性能优化</a></td>
+<td align="center"><a href="http://www.zhangxinxu.com/wordpress/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD/">张鑫旭——前端性能</a></td>
+</tr>
+<tr>
+<td><a href="http://www.aliued.cn/2013/01/20/web%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E8%BF%9B%E9%98%B6%E8%B7%AF.html">web前端性能优化进阶路</a></td>
+<td align="center"><a href="http://www.feelcss.com/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD">Hey——前端性能</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/yslow">YSLOW中文介绍</a></td>
+<td align="center"><a href="http://www.360doc.com/content/10/0928/09/2588264_56971287.shtml">Yahoo!团队实践分享：网站性能</a></td>
+</tr>
+<tr>
+<td><a href="http://tgideas.qq.com/webplat/info/news_version3/804/808/811/m579/201109/41355.shtml">加载，不只是少一点点</a></td>
+<td align="center"><a href="http://coolshell.cn/articles/6470.html">由12306谈谈网站前端性能和后端性能优化</a></td>
+</tr>
+<tr>
+<td><a href="http://www.alloyteam.com/2012/10/high-performance-html">【高性能前端1】高性能HTML</a></td>
+<td align="center"><a href="http://www.alloyteam.com/2012/10/high-performance-css">【高性能前端2】高性能CSS</a></td>
+</tr>
+<tr>
+<td><a href="http://www.infoq.com/cn/articles/front-end-engineering-and-performance-optimization-part1">前端工程与性能优化（上）：静态资源版本更新与缓存</a></td>
+<td align="center"><a href="http://www.infoq.com/cn/articles/front-end-engineering-and-performance-optimization-part2">前端工程与性能优化（下）：静态资源管理与模板框架</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.jobbole.com/48369">HTTPS连接的前几毫秒发生了什么</a></td>
+<td align="center"><a href="http://uicss.cn/yslow/#more-12319">Yslow</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/amfe/article/issues/1">阿里无线前端性能优化指南(Pt.1 加载期优化)</a></td>
+<td align="center"><a href="http://www.cnblogs.com/developersupport/p/3248695.html">毫秒必争，前端网页性能最佳实践</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cdn"><a name="user-content-cdn" href="#cdn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>CDN</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.bootcdn.cn/jquery">Jquery&amp;Bootstrap中文网开源项目免费 CDN 服务</a></td>
+<td align="center"><a href="http://www.bootcdn.cn">Bootstrap中文网开源项目免费 CDN 服务</a></td>
+</tr>
+<tr>
+<td><a href="http://lib.sinaapp.com">新浪CDN</a></td>
+<td align="center"><a href="http://cdn.code.baidu.com">百度静态资源公共库</a></td>
+</tr>
+<tr>
+<td><a href="http://staticfile.org">开放静态文件 CDN - 七牛</a></td>
+<td align="center"><a href="http://www.jq22.com/cdn">CDN加速 - jq22</a></td>
+</tr>
+<tr>
+<td><a href="http://www.asp.net/ajax/cdn">微软CDN</a></td>
+<td align="center"><a href="https://code.angularjs.org/1.5.8/">Angular CDN</a></td>
+</tr>
+<tr>
+<td><a href="http://libs.useso.com">360网站卫士常用前端公共库CDN服务</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="git"><a name="user-content-git" href="#git" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Git</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/Good-text-Share/issues/20">Git操作</a></td>
+<td align="center"><a href="http://blog.csdn.net/qq_27080247/article/details/49942991">Git CSDN Blog</a></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="http://git-scm.com">Git-scm</a></td>
+<td align="center"><a href="https://git-for-windows.github.io">Git-for-windows</a></td>
+</tr>
+<tr>
+<td><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰-Git教程</a></td>
+<td align="center"><a href="http://www.worldhello.net/gotgithub/index.html">Gogithub</a></td>
+</tr>
+<tr>
+<td><a href="http://pcottle.github.io/learnGitBranching">Git常规命令练习</a></td>
+<td align="center"><a href="https://github.com/xirong/my-git">Git的资料整理</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/fanfan259/p/4810517.html">我所记录的git命令（非常实用）</a></td>
+<td align="center"><a href="https://github.com/phodal/github-roam">GitHub 漫游指南</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md">GitHub秘籍</a></td>
+<td align="center"><a href="http://onlywei.github.io/explain-git-with-d3">动画方式练习git</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sassless"><a name="user-content-sassless" href="#sassless" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sass&amp;Less</h2>
+<table>
+<thead>
+<tr>
+<th>Article</th>
+<th align="center">Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Wscats/less-demo/issues/1">Less教程</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td><strong>Reference</strong></td>
+<td align="center"><strong>Reference</strong></td>
+</tr>
+<tr>
+<td><a href="http://www.w3cplus.com/sassguide">Sass</a></td>
+<td align="center"><a href="http://sass.bootcss.com">Sass中文文档</a></td>
+</tr>
+<tr>
+<td><a href="http://less.bootcss.com">Less</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="markdown"><a name="user-content-markdown" href="#markdown" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Markdown</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://wowubuntu.com/markdown">Markdown 语法说明 (简体中文版)</a></td>
+<td align="center"><a href="https://github.com/LearnShare/Learning-Markdown/blob/master/README.md">Markdown入门参考</a></td>
+</tr>
+<tr>
+<td><a href="https://www.zybuluo.com/mdeditor">Mdeditor(一款国内的在线markdown编辑器)</a></td>
+<td align="center"><a href="https://stackedit.io">Stackedit(国外的在线markdown编辑器，功能强大，同步云盘)</a></td>
+</tr>
+<tr>
+<td><a href="http://bh-lay.github.io/mditor">Mditor一款轻量级的markdown编辑器</a></td>
+<td align="center"><a href="https://github.com/lepture/editor">lepture-editor</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jbt/markdown-editor">Markdown-editor</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6"><a name="user-content-_6" href="#_6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>前端文档</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/JacksonTian/fks">前端知识结构</a></td>
+<td align="center"><a href="https://github.com/unruledboy/WebFrontEndStack">Web前端开发大系概览</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程中文书籍索</a></td>
+<td align="center"><a href="https://github.com/dypsilon/frontend-dev-bookmarks">前端书籍</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/vhf/free-programming-books">前端免费书籍大全</a></td>
+<td align="center"><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript">重新介绍JavaScript（JS教程）</a></td>
+</tr>
+<tr>
+<td><a href="https://www.gitbook.com 国外的在线markdown可编辑成书">Gitbook</a></td>
+<td align="center"><a href="https://github.com/Front-End-Developers-Hunan/Front-End-Develop-Guide">Front-End-Develop-Guide 前端开发指南</a></td>
+</tr>
+<tr>
+<td><a href="https://li-xinyang.gitbooks.io/frontend-notebook/content">前端开发笔记本</a></td>
+<td align="center"><a href="https://github.com/nieweidong/fetool">大前端工具集</a></td>
+</tr>
+<tr>
+<td><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content">前端开发者手册</a></td>
+<td align="center"><a href="https://github.com/qiu-deqing/FE-learning">结合个人经历总结的前端入门方法</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.csdn.net/qq_25827845/article/details/53079094">2016最新前端学习计划</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7"><a name="user-content-_7" href="#_7" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>前端规范</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://alloyteam.github.io/CodeGuide/">通过分析github代码库总结出来的工程师代码书写习惯</a></td>
+<td align="center"><a href="http://codeguide.bootcss.com">HTML&amp;CSS编码规范 by @mdo</a></td>
+</tr>
+<tr>
+<td><a href="http://yuwenhui.github.io">前端编码规范之js - by yuwenhui</a></td>
+<td align="center"><a href="http://www.cnblogs.com/hustskyking/p/javascript-spec.html">前端编码规范之js - by 李靖</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/yuche/javascript#table-of-contents">Airbnb JavaScript 编码规范（简体中文版）</a></td>
+<td align="center"><a href="http://www.zhihu.com/question/20351507">AMD与CMD规范的区别</a></td>
+</tr>
+<tr>
+<td><a href="http://www.cnblogs.com/tugenhua0707/p/3507957.html">AMD与CMD规范的区别</a></td>
+<td align="center"><a href="http://docs.kissyui.com/1.4/docs/html/tutorials/style-guide/kissy-source-style.html">KISSY 源码规范</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.jobbole.com/79075">前端代码规范及最佳实践</a></td>
+<td align="center"><a href="http://coderlmn.github.io/code-standards">百度前端规范</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.jobbole.com/79484">JavaScript风格指南/编码规范（Airbnb公司版）</a></td>
+<td align="center"><a href="http://nec.netease.com/standard">网易前端开发规范</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/ecomfe/spec">前端规范资源列表</a></td>
+<td align="center"><a href="http://codecloud.net/5622.html">Web 前端开发规范文档</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8"><a name="user-content-_8" href="#_8" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>前端面试</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.cnblogs.com/imwtr/p/4685546.html">2016校招内推 &ndash; 阿里巴巴前端 &ndash; 四面面试经历</a></td>
+<td align="center"><a href="https://www.nowcoder.com/discuss/3196">那几个月在找工作（百度，网易游戏，华为）</a></td>
+</tr>
+<tr>
+<td><a href="https://segmentfault.com/a/1190000000465431">前端开发面试题</a></td>
+<td align="center"><a href="https://github.com/hawx1993/Front-end-Interview-questions">Front-end-Interview-questions</a></td>
+</tr>
+<tr>
+<td><a href="http://ourjs.com/detail/5%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%9A%84%E5%89%8D%E7%AB%AF%E">5个经典的前端面试问题</a></td>
+<td align="center"><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese">Front-end-Developer-Interview-Questions</a></td>
+</tr>
+<tr>
+<td><a href="http://blog.jobbole.com/78738/">BAT及各大互联网公司2014前端笔试面试题：JavaScript篇</a></td>
+<td align="center"><a href="https://github.com/paddingme/Front-end-Web-Development-Interview-Question">前端开发面试题大收集</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/qiu-deqing/FE-interview">收集的前端面试题和答案</a></td>
+<td align="center"><a href="https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md">前端开发面试题</a></td>
+</tr>
+<tr>
+<td><a href="https://segmentfault.com/a/1190000005947094">前端面试大全</a></td>
+<td align="center"><a href="https://mdluo.github.io/blog/about-front-end-interview/">关于前端面试</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_9"><a name="user-content-_9" href="#_9" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>前端网站</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://gold.xitu.io/">掘金</a></td>
+<td align="center"><a href="http://fex.baidu.com/">百度FEX</a></td>
+</tr>
+<tr>
+<td><a href="http://www.aliued.com/">阿里UED</a></td>
+<td align="center"><a href="http://www.runoob.com/">菜鸟教程</a></td>
+</tr>
+<tr>
+<td><a href="http://www.qdfuns.com/portal.php">QDFuns</a></td>
+<td align="center"><a href="http://www.imooc.com/">幕课网</a></td>
+</tr>
+<tr>
+<td><a href="http://codepen.io/">Codepen</a></td>
+<td align="center"><a href="http://sentsin.com/daohang/">Sentsin</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="js"><a name="user-content-js" href="#js" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>JS练习</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.codewars.com/">Codewars</a></td>
+<td align="center"><a href="http://javascript-puzzlers.herokuapp.com/">Javascript-puzzlers</a></td>
+</tr>
+<tr>
+<td><a href="https://freecodecamp.cn/">Freecodecamp中文版</a></td>
+<td align="center"><a href="http://es6katas.org/">ES6katas</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nowcoder.com/ta/js-assessment">Now Coder牛客网</a></td>
+<td align="center"><a href="https://leetcode.com/">Leetcode</a></td>
+</tr>
+<tr>
+<td><a href="https://nodeschool.io/">Nodeschool</a></td>
+<td align="center"><a href="https://www.hackerrank.com/">Hackerrank</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_10"><a name="user-content-_10" href="#_10" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>算法</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Ralph-Wang/algorithm.in.js">数据结构与算法 JavaScript 描述. 章节练习</a></td>
+<td align="center"><a href="https://github.com/twobin/twobinSort">常见排序算法（JS版）</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/luofei2011/jsAgm/blob/master/js/sort.js">经典排序</a></td>
+<td align="center"><a href="https://github.com/hechangmin/jssort">常见排序算法-js版本</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="es"><a name="user-content-es" href="#es" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>ES</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://es6-org.github.io/exploring-es6/">Exploring-ES6翻译</a></td>
+<td align="center"><a href="http://es6.ruanyifeng.com">阮一峰 ES6</a></td>
+</tr>
+<tr>
+<td><a href="http://yanhaijing.com/es5">ECMA-262，第 5 版</a></td>
+<td align="center"><a href="http://es5.github.io">ES5</a></td>
+</tr>
+</tbody>
+</table></article></body></html>
