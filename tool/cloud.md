@@ -1,25 +1,19 @@
 开发一个应用一般需要什么云服务?
 在 风车里，我们使用了  Linode 作为应用服务器， Amazon S3 作为文件存储， 七牛作为静态文件 CDN， Pusher 作为实时消息推送系统， Olark 作为在线客服系统， FastSpring 作为付费订阅系统， SendCloud 和 SES 作为邮件发送服务商 
 
-
 [会鸽](http://eventdove.com/index.html)
 [野狗](https://www.wilddog.com/) 轻松构建你的实时应用
 [cedexis](http://www.cedexis.com/)
 [GitCafe](https://gitcafe.com)
 
-
-
 [FPOImg](http://fpoimg.com/)
 [Dummy Image](http://dummyimage.com/)
 [lorempixel](http://lorempixel.com/)
-
 
 http://www.rongcloud.cn/
 http://www.ucpaas.com/
 
 [WEB测试](https://loadimpact.com/)
-
-
 
 应用服务器
 数据库服务器
@@ -52,7 +46,6 @@ http://www.ucpaas.com/
 * [听云Browser](http://www.tingyun.com/tingyun_browser.html)
 * [网页性能管理](http://www.jiankongbao.com/new_process)
 
-
 ## 云加速
 [百度云加速](http://next.su.baidu.com/)
 加速(智能DNS解析, CDN)/云WAF/DDos/SEO
@@ -70,14 +63,12 @@ http://www.ucpaas.com/
 [DNSLA](https://www.dns.la/)
 [八戒DNS](http://www.8jdns.com/)
 
-
 # CDN服务静态库
 [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
 [cdnjs]( http://www.cdnjs.cn/)
 [bootcdn](http://www.bootcdn.cn/)
 [baiducdn](http://cdn.code.baidu.com)
 [开放CDN](http://staticfile.org/)
-
 [CDN贝](http://cdnbest.com/)
 
 # BaaS 后端云
@@ -92,7 +83,6 @@ backend云服务, 一般提供开发一个应用所需的所有服务, 而不需
 [ApiCloud]( http://apicloud.com/)
 [Parse](http://parse.com)
 [Firebase](https://www.firebase.com/)
-
 [Gametata](http://www.gametata.com/)
 一般通用的游戏的网路功能大概包括： 玩家信息，背包，pvp，聊天，排行榜，支付等功能。gametata为所有的常用功能提供接口，只需要3，5行代码，就可以为游戏接入各种网络功能。
 
@@ -103,7 +93,6 @@ backend云服务, 一般提供开发一个应用所需的所有服务, 而不需
 和上面那个差不多
 * [See our new Enterprise App Platform](http://www.appgyver.com/steroids/getting_started)
 * [移动web应用开发整体解决方案 baidu clouda](http://clouda.baidu.com/)
-
 
 TODO
 云服务器
@@ -117,11 +106,6 @@ http://mobilehub.io/categories/Development
 [Mob]( http://mob.com/)
 ShareSDK社会化分享 
 免费短信验证码SDK 
-
-
-
-
-
 
 http://www.zhihu.com/question/22098754 
 BaaS服务平台有哪些？
@@ -175,7 +159,6 @@ BaaS（后端即服务：Backend as a Service）公司为移动应用开发者�
 1.短信宝 短信宝-为中小网站提供专业的短信服务 (短信开放接口)
 2.亲加 亲加 | 移动应用沟通解决方案 (实时语音)
 
-
 ## 代码托管
 * [Team@OSC](http://team.oschina.net/) [Git@OSC](https://git.oschina.net/)
 * [Coding](https://coding.net/) 代码托管, 质量管理, 演示平台, 项目管理(任务, 讨论, 文档), WebIDE(Terminal)
@@ -223,7 +206,6 @@ BaaS（后端即服务：Backend as a Service）公司为移动应用开发者�
 
 使用 GrowingIO 的无埋点技术后，业务端人员无需再通过工程师来采集数据，仅需加载一行 SDK 代码，即可点击各种网页元素，实时获得数据结果。
 
-
 ## 客服
 * [美恰](http://meiqia.com) 实时在线的客户服务工具
 * [待客](https://daike.dk/) 客户支持系统
@@ -241,7 +223,6 @@ BaaS（后端即服务：Backend as a Service）公司为移动应用开发者�
 * [Ping++](https://pingxx.com/)
 * http://beecloud.cn/
 
-
 ## 团队(项目)管理
 * [贝格乐](http://backlogtool.com) 项目管理工具 “贝格乐（Backlog）” 甘特图 燃尽图 版本控制 项目管理 wiki
 * [钉钉](http://www.dingtalk.com/)
@@ -258,7 +239,6 @@ BaaS（后端即服务：Backend as a Service）公司为移动应用开发者�
 * [绿狗](http://www.lvgou.com/) 安全你的创业
 * [App在线估价](http://www.chamobile.com/price.html)
 * [iWorker工作家](http://home.iworker.cn/) 企业移动管理软件
-
 
 ## 参考
 * [API Store](http://apistore.baidu.com/) 为开发者提供最全面的API服务

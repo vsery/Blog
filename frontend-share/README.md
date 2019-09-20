@@ -1,5 +1,3 @@
-
-
 ## Javascript
 <table>
     <th>Article</th>

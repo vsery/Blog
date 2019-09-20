@@ -100,7 +100,8 @@
    
      这种情况下前端静态资源一般还是放在后端项目中的, 仍旧只会有后端项目需要发布, 只是为了提升页面的访问速度(主要是静态资源的加载速度), 发布时会将静态资源放到 CDN 上(例如阿里云 OSS + CDN), 这就需要在发布时替换页面中引用的资源路径为 CDN URL.
      
-     例如发布之前的页面中引用了一个 `<script src="a/b.js">`, 发布时需要将 URL 替换成 CDN 上该资源对应的 URL, 一般就是 `CDN 域名 + 原来资源的 URL`, 例如 `<script src="http://your-cdn-domain.com/a/b.js">`
+     例如发布之前的页面中引用了一个 `<script src="a/b.js">`, 发布时需要将 URL 替换成 CDN 上该资源对应的 URL, 一般就是 `CDN 域名 + 原来资源的 URL`, 例如 `
+      <script src="http://your-cdn-domain.com/a/b.js">`
 
      需要替换的 URL 有
      * 页面中 CSS 的 link href
